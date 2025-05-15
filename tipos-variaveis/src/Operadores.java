@@ -9,7 +9,12 @@ public class Operadores {
         simNao = numero1 != numero2;
         System.out.println("numero1 é diferente de numero2? " + simNao);
         
-        
+        if (numero1 < numero2) {
+            System.out.println("numero1 é menor que numero2");
+        }
+        else {
+            System.out.println("numero1 é maior que numero2");
+        }
         
     }
 }
