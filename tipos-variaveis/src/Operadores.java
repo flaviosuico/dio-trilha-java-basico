@@ -1,6 +1,11 @@
 public class Operadores {
     public static void main(String[] args) {
-        
+        String nomeUmString = "Lucas";
+        String nomeDoisString = "Lucas2";
+
+        System.out.println("nomeUm ");
+
+
         int numero1 = 1;
         int numero2 = 2;
         boolean simNao = numero1 == numero2;
@@ -15,6 +20,8 @@ public class Operadores {
         else {
             System.out.println("numero1 é maior que numero2");
         }
+
+        System.out.println(nomeUmString.equals(nomeDoisString));
         
     }
 }
