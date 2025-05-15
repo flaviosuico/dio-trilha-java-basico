@@ -12,6 +12,8 @@ public class TiposVariaveis {
 
         System.out.println(numero);
 
+        
+
 
     }
 }
