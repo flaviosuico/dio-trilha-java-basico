@@ -1,21 +1,15 @@
 public class Operadores {
     public static void main(String[] args) {
-        String nomeCompleto = "Flavio" + "Diggelmann";
-        System.out.println(nomeCompleto);    
+        
+        int numero = 0;
+        
+        numero = numero + 1;
+        numero = 1; // numero = numero + 1
 
-        String concatanacao = "?";
+        numero++; // numero = numero + 1
 
-        concatanacao = 1 + 1 + 1 + "1";
-
-        System.out.println(concatanacao);
-        concatanacao = 1 + "1" + 1 + 1;
-        System.out.println(concatanacao);
-        concatanacao = 1 + "1" + 1 + "1";
-        System.out.println(concatanacao);
-        concatanacao = "1" + 1 + 1 + 1;
-        System.out.println(concatanacao);
-        concatanacao = "1" + (1 + 1 + 1);
-        System.out.println(concatanacao);
-        // Operadores Aritmeticos
+        System.out.println(numero);
+        // Operadores de Atribuição
+        
     }
 }
